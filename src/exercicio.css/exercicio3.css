@@ -1,0 +1,39 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
+.li:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.container{
+    padding: 60px;
+}
+
+.footer{
+background-color: black;
+border: 1px solid black;
+color: aqua;
+}
+
+.footer:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
