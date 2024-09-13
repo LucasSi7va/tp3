@@ -1,0 +1,6 @@
+.tarefas{
+    display: flex;
+    gap: 100px;
+    width: 200px;
+    margin-top: 10px;
+}

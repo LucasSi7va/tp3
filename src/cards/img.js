@@ -1,13 +1,11 @@
 import React from 'react';
 
 
-const img = ({ titulo, subtitulo, conteudo }) => {
+const img = ({ imagem, descricao, link }) => {
   return (
-    <div className="card">
-      <h2>{titulo}</h2>
-      <h4>{subtitulo}</h4>
-      <p>{conteudo}</p>
-    </div>
+    <a href={link} target='_blank' rel='noopener noreferrer'>
+      <img src={imagem} alt={descricao}/>
+    </a>
   );
 };
 

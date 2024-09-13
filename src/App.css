@@ -1,0 +1,17 @@
+ul{
+    list-style:disc;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+   color: blue;
+
+}
+
+li{
+    margin-top: 20px;
+}

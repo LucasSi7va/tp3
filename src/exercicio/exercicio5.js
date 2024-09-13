@@ -1,4 +1,4 @@
-import '../exercicio.css/exercicio5.css';
+
 
 const Produto = ({ nome, preco, descricao }) => {
     return (
