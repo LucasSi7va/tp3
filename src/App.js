@@ -12,6 +12,7 @@ import Exercicio8 from './exercicio/exercicio8';
 import Exercicio9 from './exercicio/exercicio9';
 import Exercicio10 from './exercicio/exercicio10';
 import Exercicio11 from './exercicio/exercicio11';
+import Exercicio12 from './exercicio/exercicio12';
 export default function App() {
 
   return (
@@ -30,6 +31,7 @@ export default function App() {
             <li><Link to="/exercicio9" className='link'>Exercício 9</Link></li>
             <li><Link to="/exercicio10" className='link'>Exercício 10</Link></li>
             <li><Link to="/exercicio11" className='link'>Exercício 11</Link></li>
+            <li><Link to="/exercicio12" className='link'>Exercicio 12</Link></li>
           </ul>
         </nav>
 
@@ -45,6 +47,7 @@ export default function App() {
           <Route path="/exercicio9" element={<Exercicio9 />} />
           <Route path="/exercicio10" element={<Exercicio10 />} />
           <Route path="/exercicio11" element={<Exercicio11 />} />
+          <Route path="/exercicio12" element={<Exercicio12 />} />
         </Routes>
       </main>
     </Router>
