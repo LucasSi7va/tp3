@@ -20,5 +20,8 @@ const Exercicio11 = () => {
 };
 
 export default Exercicio11;
+<<<<<<< HEAD
 
 // precisa colocar para mensagem tambem
+=======
+>>>>>>> bf7566d87dccb65e8315efa5130ffb18c227825c
