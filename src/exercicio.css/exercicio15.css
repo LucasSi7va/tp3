@@ -1,0 +1,15 @@
+.tabela {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .tabela th, .tabela td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .tabela th {
+    font-weight: bold;
+  }
+  
+  

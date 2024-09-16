@@ -1,0 +1,32 @@
+.cabecalho{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.menu{
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+.menu ul{
+    list-style: decimal;
+}
+
+.conteudo{
+    border: 1px solid black;
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+.conteudo p{
+    font-size: 60px;
+}
+
+.rodape{
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
